@@ -1,5 +1,5 @@
 package com.jy.ger.board.model.dao;
 
-public class BoardDao {
+public class BoardDaoImpl {
 
 }

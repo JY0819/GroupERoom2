@@ -1,33 +1,31 @@
-   <!-- Footer -->
-   <footer class="sticky-footer bg-white">
-     <div class="container my-auto">
-       <div class="copyright text-center my-auto">
-         <span>Copyright &copy; GroupERoom 2019</span>
-       </div>
-     </div>
-   </footer>
-   <!-- End of Footer -->
-
-   </div>
-   <!-- End of Content Wrapper -->
-
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>      
+      
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="row align-items-center justify-content-xl-between">
+          <div class="col-xl-6">
+            <div class="copyright text-center text-xl-left text-muted">
+              © 2019 GroupERoom<a href="https://github.com/JY0819" class="font-weight-bold ml-1" target="_blank">Created by JY</a>
+            </div>
+          </div>
+      </footer>
+    </div>
   </div>
-  <!-- End of Page Wrapper -->
-
-  <!-- Scroll to Top Button-->
-  <a class="scroll-to-top rounded" href="#page-top">
-    <i class="fas fa-angle-up"></i>
-  </a>
-
-  <script src="/resources/template/vendor/jquery/jquery.min.js"></script>
-  <script src="/resources/template/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <script src="/resources/template/vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <script src="/resources/template/js/sb-admin-2.min.js"></script>
-  <script src="/resources/template/vendor/chart.js/Chart.min.js"></script>
-  <script src="/resources/template/js/demo/chart-area-demo.js"></script>
-  <script src="/resources/template/js/demo/chart-pie-demo.js"></script>
-
+  
+  <script src="/resources/template/assets/js/plugins/jquery/dist/jquery.min.js"></script>
+  <script src="/resources/template/assets/js/plugins/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/resources/template/assets/js/plugins/chart.js/dist/Chart.min.js"></script>
+  <script src="/resources/template/assets/js/plugins/chart.js/dist/Chart.extension.js"></script>
+  <script src="/resources/template/assets/js/argon-dashboard.min.js"></script>
+  <script src="https://cdn.trackjs.com/agent/v3/latest/t.js"></script>
+  
+  <script type="text/javascript">
+    window.TrackJS &&
+      TrackJS.install({
+        token: "ee6fab19c5a04ac1a32a645abde4613a",
+        application: "argon-dashboard-free"
+      });
+   </script>
+   
 </body>
 </html>

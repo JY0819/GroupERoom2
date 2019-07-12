@@ -1,5 +1,5 @@
 package com.jy.ger.message.model.service;
 
-public class MessageService {
+public class MessageServiceImpl {
 
 }

@@ -8,6 +8,10 @@ public class AdminController {
 
 	private final String emp = "/admin/employee/";
 	
+	@RequestMapping("/admin/adminMain")
+	public String goAdminMain() {
+		return "/admin/adminMain";
+	}
 	
 	@RequestMapping("/admin/insertEmp")
 	public String insertEmp()	{
